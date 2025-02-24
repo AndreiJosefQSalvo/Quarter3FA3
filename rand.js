@@ -3,9 +3,9 @@ function numbers() {
 	var num2 = Math.random() * 20;
 	var num3 = Math.random() * 20;
 
-	num1 = Math.ceil(num1);
-	num2 = Math.ceil(num2);
-	num3 = Math.ceil(num3);
+	num1 = Math.round(num1);
+	num2 = Math.round(num2);
+	num3 = Math.round(num3);
 
 	document.getElementById('num1').innerHTML = num1;
 	document.getElementById('num2').innerHTML = num2;
