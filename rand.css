@@ -1,0 +1,41 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(lavender, violet);
+	color: black;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+    }
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	font-family: 'Georgia', serif;
+	color: red;
+}
+
+    .numbers {
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      padding: 20px;
+      width: 80%;
+      max-width: 600px;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 15px 0;
+      line-height: 1.6;
+    }
+
+    .highest, .letter, .time {
+      font-size: 1.5px;
+      font-weight: bold;
+    }
